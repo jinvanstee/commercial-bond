@@ -1,8 +1,11 @@
 organization/magnetocorp/application/node_modules/
 organization/magnetocorp/contract/node_modules/
 organization/magnetocorp/identity/user/
+organization/magnetocorp/contract/package-lock.json
+organization/magnetocorp/contract/.DS_Store
 organization/digibank/application/node_modules/
 organization/digibank/contract/node_modules/
 organization/digibank/identity/user/
+organization/digibank/contract/package-lock.json
 package-lock.json
 .vscode

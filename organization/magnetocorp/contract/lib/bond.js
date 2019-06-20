@@ -15,7 +15,7 @@ const cpState = {
 };
 
 /**
- * Commercialbond class extends State class
+ * CommercialBond class extends State class
  * Class will be used by application and smart contract to define a bond
  */
 class CommercialBond extends State {
@@ -90,8 +90,8 @@ class CommercialBond extends State {
     /**
      * Factory method to create a commercial bond object
      */
-    static createInstance(issuer, bondNumber, issueDateTime, maturityDateTime, faceValue) {
-        return new CommercialBond({ issuer, bondNumber, issueDateTime, maturityDateTime, faceValue });
+    static createInstance(issuer, bondNumber, issueDateTime, maturityDateTime, faceValue, interestRate) {
+        return new CommercialBond({ issuer, bondNumber, issueDateTime, maturityDateTime, faceValue, interestRate });
     }
 
     static getClass() {
