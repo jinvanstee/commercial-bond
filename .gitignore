@@ -9,3 +9,5 @@ organization/digibank/identity/user/
 organization/digibank/commercial-bond/package-lock.json
 package-lock.json
 .vscode
+.DS_Store
+organization/magnetocorp/.DS_Store
